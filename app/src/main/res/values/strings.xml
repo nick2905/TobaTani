@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">TobaTani</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="biasa_ditemukan_pada">Biasa ditemukan pada</string>
+    <string name="ciri_ciri_penyakit">Ciri-Ciri Penyakit</string>
+    <string name="solusi_mengatasi">Solusi Mengatasi</string>
+
+    <string-array name="dataIndexTanah">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="dataNamaTanah">
+        <item>Tanah Alluvial</item>
+        <item>Tanah Andosol</item>
+        <item>Tanah Grumosol</item>
+        <item>Tanah Humus</item>
+        <item>Tanah Gambut</item>
+        <item>Tanah Regosol</item>
+        <item>Tanah Latosol</item>
+        <item>Tanah Lisotol</item>
+    </string-array>
+
+    <string-array name="dataDeskripsiTanah">
+        <item>Jenis tanah yang terjadi karena endapan lumpur. Umumnya merupakan endapan lumpur yang terbawa karena aliran sungai. Karena terbawa dari hulu, tanah alluvial sering ditemukan di daerah hilir. Tanahnya sendiri biasanya bewarna coklat hingga kelabu dengan struktur sedikit lepas-lepas.</item>
+        <item>Jenis tanah vulkanik yang terbentuk akibat dari adanya proses vulkanisme yang ada pada gunung berapi. Tanah Andosol sangat subur dan baik untuk tanaman.</item>
+        <item>Tanah grumusol memiliki tekstur tanah yang kering dan mudah pecah terutama saat musim kemarau. Warna dari tanah grumusol sendiri adalah hitam.</item>
+        <item>Jenis tanah hasil pelapukan bahan organik, khususnya dari tanaman yang sudah mati. Humus sangat subur untuk pertanian karena memiliki kandungan bahan organik tinggi sehingga warna tanah ini menjadi hitam.</item>
+        <item>Jenis tanah hasil pembusukan bahan organik. Gambut tidak sesubur humus. Pembusukan bahan organik pada tanah gambut berlangsung dalam keadaan tergenang sehingga tanah menjadi anaerob dan terlalu masam.</item>
+        <item>Tanah regosol terbentuk dari material yang dikeluarkan letusan gunung berapi yang belum mengalami perkembangan sempurna. Tanah jenis ini bertekstur kasar dan berbahan organik rendah. Sifat demikian membuat tanah tidak dapat menampung air dan mineral yang dibutuhkan tanaman dengan baik.</item>
+        <item>Jenis tanah yang memiliki warna merah bata karena banyaknya kandungan zat besi dan aluminium yang terdapat dalam tanah ini.Tanah ini merupakan salah satu jenis tanah yang tua sehingga beberapa tanaman sulit ditanam disini.Tetapi masih ada tanaman yang bisa tumbuh dengan baik.</item>
+        <item>Tanah ini hampir mirip dengan tanah regosol karena sama sama terbentuk dari aktivitas gunung merapi.Tanah ini memiliki kedalaman yang dangkal dan peka terhadap erosi serta kandungan bahan organik tanah ini masih rendah.</item>
+    </string-array>
+    <string-array name="dataTanaman">
+        <item>Padi,Palawijaya,tembakau,Jagung,Tebu dan Buah Buahan.</item>
+        <item>Sayur-sayuran dan Palawijaya.</item>
+        <item>Kayu Jati,Jagung,Tebu,Tembakau,Kapas,Kedelai,Padi.</item>
+        <item>Kelapa,Nanas,Padi.</item>
+        <item>Kelapa Sawit,Nanas,Palawijaya,Karet dan padi.</item>
+        <item>Palawijaya,Tebu,Tembakau,Sayuran dan Padi.</item>
+        <item>Cengkeh, Kopi, Kelapa Sawit, Kakao,Padi, Palawija, Buah dan Sayuran lainnya.</item>
+        <item>Palawijaya</item>
+    </string-array>
+
+    <string-array name="dataWilayah">
+        <item>Sumatra, Jawa, Kalimantan, Sulawesi, Papua.</item>
+        <item>Jawa, Bali, Sumatera, Bali, Nusa Tenggara.</item>
+        <item>Jawa tengah(Demak, Jepara, Pati, Rembang dan Blora), Jawa Timur(Ngawi,Madiun) dan Nusa Tenggara Timur.</item>
+        <item>Kalimantan, Sumatera, Papua, Jawa.</item>
+        <item>Sumatera Selatan, Riau, Jambi, Kalimantan Barat, Kalimantan Tengah.</item>
+        <item>Jawa, Bali, Bengkulu, Sumatra, Nusa Tenggara.</item>
+        <item>Lampung, Sumatra Utara, Kalimantan, Jawa Timur, dan Jawa Barat, Jawa Tengah dan Papua.</item>
+        <item>Jawa, Sumatera, Nusa Tenggara, Maluku Selatan dan Papua.</item>
+    </string-array>
+
+    <integer-array name="dataGambar">
+        <item>@drawable/a_alluvial</item>
+        <item>@drawable/b_andosol</item>
+        <item>@drawable/c_grumosol</item>
+        <item>@drawable/d_humus</item>
+        <item>@drawable/e_gambut</item>
+        <item>@drawable/f_regosol</item>
+        <item>@drawable/g_latosol</item>
+        <item>@drawable/h_litosol</item>
+    </integer-array>
+
+    <!--  Data Penyakit  -->
+
+    <integer-array name="dataImagePenyakit">
+        <item>@drawable/a_aphids</item>
+        <item>@drawable/b_downymildew</item>
+        <item>@drawable/c_layufurasium</item>
+        <item>@drawable/d_magnesiumdeficiency</item>
+        <item>@drawable/e_mealybug</item>
+        <item>@drawable/f_nitrogendeficiency</item>
+        <item>@drawable/g_pottassiumdeficiency</item>
+        <item>@drawable/h_powerymildew</item>
+        <item>@drawable/i_spidermites</item>
+        <item>@drawable/j_thrips</item>
+        <item>@drawable/k_tungro</item>
+
+    </integer-array>
+    <string-array name="dataNamaPenyakit">
+        <item>Kutu Daun</item>
+        <item>Embun Bulu</item>
+        <item>Tanaman Layu</item>
+        <item>Kekurangan Magnesium</item>
+        <item>Kutu Putih</item>
+        <item>Kekurangan Nitrogen</item>
+        <item>Kekurangan Kalium</item>
+        <item>Embun Tepung</item>
+        <item>Tungau Laba-laba</item>
+        <item>Thrips</item>
+        <item>Tungro</item>
+    </string-array>
+
+    <string-array name="dataNamaLatinPenyakit">
+        <item>Aphidoidea</item>
+        <item>Maize Downy Mildew</item>
+        <item>Furasium Oxysporum</item>
+        <item>Magnesium Deficiency</item>
+        <item>Familia Pseudococcidae</item>
+        <item>Nitrogen Deficiency</item>
+        <item>Pottasium Deficiency</item>
+        <item>Oidium Tingitanium Carter</item>
+        <item>Tetranychidae</item>
+        <item>Thips Tabaci</item>
+        <item>Rice Tungro Bacilliform Virus</item>
+    </string-array>
+
+    <string-array name="dataDeskripsiPenyakit">
+        <item>Merupakan salah satu hama yang menyerang daun muda dan pucuk tanaman, terutama pada tanaman musim kemarau.Serangga ini mengisap cairan dari tumbuhan untuk mendapatkan nutrisi yang dibutuhkan.</item>
+        <item>Serangan Oomycetes dari suku Sclerosporaceae, khususnya marga Peronosclerospora (sinonim Sclerospora), yang ditemukan pada berbagai anggota rumput-rumputan (Poaceae). Tanaman  semua mengalami serangan dari kelompok protista ini. Inang lainnya adalah berbagai rumput hijauan pakan ternak.</item>
+        <item>Merupakan salah satu jenis penyakit yang umum menyerang tanaman budidaya. Serangan penyakit fusarium ini dapat dikategorikan sebagai serangan penyakit yang berbahaya, karena dapat menyebabkan kerugian yang cukup besar bagi para petani. Layu Fusarium (Fusarium wilt) disebabkan oleh jamur Fusarium oxysporum.</item>
+        <item>Merupakan gejala kekurangan magnesium pada tumbuhan yang ditandai dengan rontoknya daun dan akan tampak dari daun dewasa.</item>
+        <item>Merupakan serangga yang berpotensi menjadi hama pada berbagai tanaman, baik tanaman produksi (buah, sayur, palem-paleman) dan tanaman hias. Serangga ini dicirikan dengan permukaan tubuh yang dilapisi lapisan lilin yang bersifat anti air dan berfungsi sebagai pelindung dari predator.</item>
+        <item>Merupakan gejala pada tanaman yang memperlihatkan pertumbuhan tanaman menjadi kerdil dan menguning,serta daun lebih kecil dibandingkan daun tanaman sehat.</item>
+        <item>Merupakan gejala pada tanaman yang memperlihatkan sebagian akarnya membusuk,bentuknya kerdil, daun layu/terkulai, pinggiran dan ujung daun menjadi tua seperti terbakar(warna daun berubah menjadi kekuningan sampai kecoklatan dimulai dari ujung dan terus menjalar ke pangkal daun).</item>
+        <item>Merupakan penyakit tanaman yang disebabkan oleh jamur (fungus) Microsphaera diffusa yang umumnya menyerang bagian daun tanaman budidaya dan tanaman hias lainnya.</item>
+        <item>Merupakan anggota dari keluarga Acari (tungau) Tetranychidae, yang mencakup sekitar 1.200 spesies. Mereka umumnya hidup di bagian bawah daun tanaman, tempat mereka dapat memintal jaring sutra pelindung, dan mereka dapat menyebabkan kerusakan dengan menusuk sel - sel tanaman untuk diberi makan.</item>
+        <item>Merupakan hama yang paling berbahaya bagi tanaman, terutama tanaman cabe. Hama ini menyerang pada daun tanaman terutama pada daun muda atau bagian pucuk tanaman.</item>
+        <item>Merupakan penyakit yang disebabkan oleh infeksi ganda dari 2 jenis virus yang berlainan. Kedua virus yang dimaksud adalah Rice Tungro Spherical Virus (RTSV) dan Rice Tungro Bacilliform Virus (RTBV). Sebenarnya, penyakit ini bisa ditularkan oleh beberapa jenis hewan serangga, tetapi yang paling cepat menularkan dan menyebarkannya adalah spesies wereng hijau.</item>
+    </string-array>
+
+    <string-array name="dataCiriCiriPenyakit">
+        <item>
+            1. Mengakibatkan warna daum menjadi pucat.\n2. Daun mengeriting  dan bergelombang.\n3. Pada serangan yang parah daun seperti terbakar.
+        </item>
+        <item>
+            1. Warna daun tanaman muda yang mendadak menjadi bergaris-garis kuning pucat (klorosis) atau bahkan putih yang kemudian menyebar ke seluruh daun.\n2. Pada serangan yang berat, seluruh tubuh tanaman berwarna kuning pucat dan kemudian mati. Penyakit ini apabila menyerang pada stadium pertumbuhan awal dapat menyebabkan 100% kegagalan panen.
+        </item>
+        <item>
+            1. Menguningnya daun pisang dari mulai daun yang tua, menguning mulai dari pinggiran daun.\n2. Pecah batang, perubahan warna pada saluran pembuluh.\n3. Ruas daun memendek.\n4. Biasanya batang yang terserang mengeluarkan bau busuk.
+        </item>
+        <item>
+            1. Secara keseluruhan tanaman terlihat pucat.\n2. Timbulnya bercak bercak kuning keputihan pada daun dewasa.\n3. Daun dewasa terlihat menguning,perlahan jaringan sel daun akan mati.
+        </item>
+        <item>
+            1. Mengalami pertumbuhan yang abnormal (daun menguning, keriting dan mengering), batang terkadang mengalami distorsi.\n2. Apabila menyerang buah, buah menjadi distorsi, kering, dan rasa menjadi hambar.
+        </item>
+        <item>
+            1. Kandungan klorofil daun tanaman berkurang yang menghasilkan warna kuning pucat. Daun yang lebih tua benar-benar menguning.\n2. Daun akan tampak pucat dan kehilangan cahaya daun sehat.\n3. Pucuk daun berubah kekuningan.\n4. Daun muda dan daun tua terlihat keriput.\n5. Pada kasus parah,seluruh daun tanaman akan berubah menjadi kuning dan daun yang tumbuh di dasar akan menjadi kecoklatan seperti tampak mati.
+        </item>
+        <item>
+            1. Pada daun muda ujung dan tepiannya tampak menguning.\n2. Pada daun dewasa tampak menguning kecoklatan, mengering  pada pucuk daun dan menggulung ke bawah di tepiannya.\n3. Tampak gelap pada urat daun.\n4. Tangkai daun pendek dan kurus.\n5. Buah yang dihasilkan berwarna pudar dan pucat.
+        </item>
+        <item>
+            1. Tumbuhnya bercak bercak-putih keabuan seperti bedak.\n2. Bentuk dan ukuran tanaman lebih kecil dari jarum pentul dengan struktur bulat yang awalnya putih lalu berubah menjadi kekuningan dan akhirnya hitam.\n3. Tumbuh menyendiri atau secara berkelompok.
+        </item>
+        <item>
+            1. Daun menjadi kekuningan dan muncul bercak-bercak pada bagian yang dihisap cairannya.\n2. Daun menjadi kekuningan dan muncul bercak-bercak pada bagian yang dihisap cairannya.
+        </item>
+        <item>
+            1. Daun keriting dan menggulung ke atas lalu kering dan akhirnya mati.\n2. Pada buah terdapat bekas luka berwarna coklat keabu-abuan.\n3. Pada cabai terdapat bercak-bercak putih di bagian bawah daun.\n4. Mengakibatkan bunga-bunga kering dan rontok.
+        </item>
+        <item>
+            1. Perubahan warna pada daun muda tanaman padi yang menguning hingga jingga.\n2. Daun daun terlihat melinitir.\n3. Tanaman padi menjadi kerdil.\n4. Jumlah tanaman padi muda menjadi berkurang drastis karena rentan terkena virus tungro.\n5. Serangan tungro di suatu hamparan sawah terlihat berkelompok.
+        </item>
+    </string-array>
+
+    <string name="contoh">
+            1. Memotong bagian tanaman yang diserang.\n3. Mengatasi Tumpang Sari(Tanaman yang mempunyai bau tidak sedap).\n2. Pemberian Pestisida.
+    </string>
+
+    <string-array name="dataSolusiTanaman">
+        <item>
+            1. Memotong bagian tanaman yang diserang.\n2. Pemberian Pestisida.\n3. Mengatasi Tumpang Sari(Tanaman yang mempunyai bau tidak sedap).
+        </item>
+        <item>
+            1. Menggunakan benih unggul dan berkualitas untuk mencegah penyakit hama ini.\n2. Semprotkan Fungisida secara rutin.
+        </item>
+        <item>
+            1. Buang dan bakar tanaman pisang yang sudah terlanjur terserang penyaki ini.\n2. Menanam lebih dari satu varietas atau menanan bibit yang sehat.\n3. Bersihkan gulma di sekitar areal pertanaman.\n4. Gunakan bibit yang bebas penyakit (hasil kultur jaringan).\n5. Jangan memasukkan bibit, bonggol dan tanah dari daerah yang sudah terkontaminasi.
+        </item>
+        <item>
+            Memperbanyak pengunaan magnesium untuk tanaman sebagai pembentukan protein dan klorofil dalam proses fotosintesis.
+        </item>
+        <item>
+            1. Mealybugs dapat dikontrol menggunakan jamur Lecanicillium lecanii.\n2. Sabun insektisida efektif terhadap kutu putih.\n3. Pengendalian Biologis dengan parasit Acerophagus coccois, Epidinocarsis diversicornis.\n4. Pengendalian Kimiawi dengan insektisida bahan aktif Organophosphat dan dimethoate.
+        </item>
+        <item>
+            Memperbanyak nitrogen seperti bentuk NHO3(nitrat) dan NH4(amonium).
+        </item>
+        <item>
+            Memperbanyak kalium untuk membantu dalam pembungaan dan berperan dalam terjadinya fotosintesis.
+        </item>
+        <item>
+            1. Hindari penggunaan pupuk nitrogen untuk membatasi pertumbuhan jaringan baru.\n2. Basmi dan musnahkan semua tanaman yang terinfeksi.\n3. Pangkas bagian-bagian tanaman yang terlalu rimbun untuk membantu meningkatkan sirkulasi udara, mengurangi kelembapan udara serta resiko penularan.
+        </item>
+        <item>
+            1. Menggunakan minyak nimba.\n2. Menggunakan sabun insektisida dengan menyemprotnya ke bagian tanaman yang terkena.\n3. Menggunakan Acaricides sebagai insektisida.
+        </item>
+        <item>
+            1. Menggunakan bibit tanaman yang berasal dari varietas tahan terhadap hama thrips.\n2. Menjaga kebersihan lingkungan tanaman dengan melakukan penyiangan gulma.\n3. Menyiram tanaman dengan menggunakan springkler agar daun-daun tanaman ikut tercuci.\n4. Menjauhkan tanaman dari tanaman-tanaman yang menjadi inang bagi hama thrips.
+        </item>
+        <item>
+            1. Waktu tanam tepat Singgang merupakan sumber inokulum virus tungro. Agar terhindar dari infeksi virus yang berasal dari singgang, maka persemaian dilakukan paling tidak 5 (lima) hari setelah pengolahan tanah selesai dan tidak ada lagi singgang.\n2. Jangan memindahkan/menggunakan bibit dari daerah endemis tungro.\n3. Tanam serentak untuk membatasi keberadaan umur tanaman yang rentan terhadap perkembangan dan penularan virus tungro.\n4. Penyemprotan insektisida.
+        </item>
+    </string-array>
+
+    <string-array name="dataTanamanYangDiserang">
+        <item>Kacang Tanah, Kentang, Kacang Panjang.</item>
+        <item>Jagung, Sorgum, Tebu, Padi, Gandum, dan Jelai.</item>
+        <item>Tanaman budidaya seperi buah-buahan.</item>
+        <item>Sayur kol, tomat, kedelai dan beberapa sayur lainnya.</item>
+        <item>Sayur-sayuran dan buah-buahan.</item>
+        <item>Tembakau, Anggur, Jagung dan beberapa tanaman lainnya.</item>
+        <item>Tanaman Fern, Kedelai, Jagung dan beberapa tanaman lainnya.</item>
+        <item>Sayur-sayuran dan buah-buahan.</item>
+        <item>Sayur-sayuran dan buah-buahan.</item>
+        <item>Cabai.</item>
+        <item>Padi.</item>
+    </string-array>
+
+    <!--  Asset gambar analisa  -->
+    <integer-array name="dataImageAnalisaTanah">
+        <item>@drawable/d_basah</item>
+        <item>@drawable/a_cukupkering</item>
+        <item>@drawable/b_kering</item>
+        <item>@drawable/c_keringparah</item>
+    </integer-array>
+
+    <string-array name="dataJudulAnalisaTanah">
+        <item>Tanah Basah</item>
+        <item>Tanah Cukup Kering</item>
+        <item>Tanah Kering</item>
+        <item>Tanah Kering Parah</item>
+    </string-array>
+
+    <string-array name="dataDeskripsiAnalisaTanah">
+        <item>Memiliki kadar air yang tinggi serta tingkat kekerasan tekstur tanah yang lembek. Tingkat kesuburan tanah tinggi. Karateristik tanah cocok untuk tanaman genjer, sawi dan kangkung.</item>
+        <item>Memiliki kadar air yang sedang dan merata serta tingkat kekerasan tekstur tanah yang sedikit keras. Tingkat kesuburan tanah sedang. Karateristik tanah cocok untuk tanaman mentimun, terong, labu, kacang panjang, jagung, umbi-umbian dan kedelai.</item>
+        <item>Memiliki kadar air yang terbatas serta tanah dapat meresap air dengan cepat. Tingkat kesuburan tanah rendah dan tekstur tanah yang cukup keras. Karateristik tanah cocok untuk tanaman mentimun, terong, labu, kacang panjang, jagung, umbi-umbian dan kedelai.</item>
+        <item>Memiliki kadar air yang sedikit serta terdapat retakan yang luas di sejumlah titik tanah. Tingkat kesuburan tanah rendah dan tekstur tanah yang keras. Karateristik tanah cocok untuk tanaman mentimun, kaktus, terong, labu, kacang panjang, jagung, umbi-umbian dan kedelai.</item>
+    </string-array>
+</resources>
